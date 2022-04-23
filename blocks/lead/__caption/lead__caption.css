@@ -1,0 +1,11 @@
+.lead__caption{
+    text-align: left;
+    margin: auto;
+    font-size: 0.625rem;
+    letter-spacing: 0.15em;
+    padding-top: 8px;
+    text-transform: uppercase;
+    width: 85vw;
+    min-width: 768px;
+    /*разобраться с шириной и сдвигами*/
+}
