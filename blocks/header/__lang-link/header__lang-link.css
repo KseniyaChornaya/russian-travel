@@ -1,0 +1,12 @@
+.header__lang-link{
+    height: 30px;
+    width: 28px;
+    text-decoration: none;
+    color: white;
+    transition: 0,4 ease-in;
+    padding-left: 18px;
+}
+
+.header__lang-link:hover{
+    text-decoration: underline;
+}
