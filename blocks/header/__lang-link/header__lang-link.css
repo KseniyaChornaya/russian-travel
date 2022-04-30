@@ -6,10 +6,7 @@
     line-height: 117%;
     text-align: right;
     text-decoration: none;
-}
-
-.header__lang-link:last-child{
-    border-bottom: 0;
+    margin-left: 18px;
 }
 
 .header__lang-link:hover{
