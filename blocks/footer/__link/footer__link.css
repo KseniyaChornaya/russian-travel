@@ -1,0 +1,21 @@
+.footer__link{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 18px;
+    transition: 0.5 ease-in;
+    margin: 0;
+}
+
+.footer__link:last-child{
+    padding: 0px;
+}
+
+.footer__link:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link{
+        padding-bottom: 32px;
+    }
+}

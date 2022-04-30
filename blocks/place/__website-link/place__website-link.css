@@ -1,0 +1,14 @@
+.place__website-link{
+    font-family: 'Inter', 'Helvetica', sans-serif;
+    text-decoration: underline;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: left;
+    transition: 0.5 ease-in;
+}
+
+.place__website-link:hover{
+    opacity: 0.8;
+}
