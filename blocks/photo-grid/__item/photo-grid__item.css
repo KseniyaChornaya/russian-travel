@@ -1,11 +1,8 @@
-.phto-grid__item{
-    width: 284px;
-    height: 213px;
-    align-self: center;
-    justify-self: center;
+.photo-grid__item{
+    width: 100%;
 }
 
-@media screen and (max-width: 1279px) {
+/*@media screen and (max-width: 1279px) {
     .photo-grid__item{
         width: 300px;
         height: 225px;
@@ -24,4 +21,4 @@
         width: 288px;
         height: 216px;
     }
-}
+}*/

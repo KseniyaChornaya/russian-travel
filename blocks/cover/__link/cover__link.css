@@ -1,6 +1,6 @@
 .cover__link{
-    max-width: 1184px;
-    min-height: 740px;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     color: white;
     background: url('../../../images/__background.jpg') center center no-repeat;
@@ -32,21 +32,7 @@
 }
 @media screen and (max-width: 1279px) {
     .cover__link{
-        max-width: 1024px;
-        min-height: 640px;
-        background-size: 100vw 62.5vw;
-    }
-}
-@media screen and (max-width: 1023px) {
-    .cover__link{
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__link{
-        max-width: 320px;
-        min-height: 200px;
+        max-width: 100vw;
+        min-height: calc( 100vw * 62.5/ 100);
     }
 }
