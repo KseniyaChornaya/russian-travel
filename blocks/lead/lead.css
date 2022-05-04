@@ -6,20 +6,22 @@
 
 @media screen and (max-width: 1024px) {
     .lead{
-        padding-bottom: 88px;
+        max-width: 928px;
         margin: 0 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead{
+        max-width: 768px;
+        padding-bottom: 88px;
         margin: 0;
-
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 320px) {
     .lead{
+        max-width: 320px;
         padding-bottom: 64px;
     }
 }

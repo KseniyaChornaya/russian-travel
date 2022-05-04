@@ -9,8 +9,9 @@
     padding-bottom: 32px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
     .lead__title{
+        max-width: 400px;
         font-size: 40px;
         line-height: 110%;
         padding-bottom: 16px;
