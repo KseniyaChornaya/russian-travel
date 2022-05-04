@@ -3,6 +3,14 @@
     max-width: 1184px;
     min-height: 740px;
     padding: 0;
+    background: url('../../images/__background.jpg') center center no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -18,7 +26,7 @@
     .cover{
         max-width: 768px;
         min-height: 480px;
-        margin: 0 auto 88px;
+        margin-bottom: 88px;
     }
 }
 
@@ -26,6 +34,6 @@
     .cover{
         max-width: 320px;
         min-height: 200px;
-        margin: 0 auto 64px;
+        margin-bottom: 64px;
     }
 }

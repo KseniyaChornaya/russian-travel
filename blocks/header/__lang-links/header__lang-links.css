@@ -1,7 +1,7 @@
 .header__lang-links{
     font-weight: 400;
     font-family: 'Inter', 'Helvetica', sans-serif;
-    padding: 0;
+    padding-bottom: 3px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
