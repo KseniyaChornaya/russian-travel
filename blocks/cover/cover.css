@@ -1,6 +1,7 @@
 .cover{
     margin: 0 48px 92px;
     max-width: 1184px;
+    width: 100%;
     min-height: 740px;
     padding: 0;
     background: url('../../images/__background.jpg') center center no-repeat;
@@ -14,7 +15,7 @@
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
     .cover{
         max-width: 1024px;
         min-height: 640px;
@@ -22,7 +23,15 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 984px) {
+    .cover{
+        max-width: 984px;
+        min-height: 615px;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .cover{
         max-width: 768px;
         min-height: 480px;
@@ -30,7 +39,15 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 560px) {
+    .cover{
+        max-width: 560px;
+        min-height: 350px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .cover{
         max-width: 320px;
         min-height: 200px;
