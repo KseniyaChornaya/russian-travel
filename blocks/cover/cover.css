@@ -1,7 +1,6 @@
 .cover{
     margin: 0 48px 92px;
     max-width: 1184px;
-    width: 100%;
     min-height: 740px;
     padding: 0;
     background: url('../../images/__background.jpg') center center no-repeat;
@@ -13,7 +12,6 @@
     position: relative;
     z-index: 1;
 }
-
 
 @media screen and (max-width: 1024px) {
     .cover{

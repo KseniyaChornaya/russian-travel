@@ -1,6 +1,5 @@
 .lead__image{
     width: 100%;
-    height: calc(100% * 62.5 / 100%);
     margin: 0 auto;
     padding-bottom: 6px;
 }
